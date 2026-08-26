@@ -1,0 +1,895 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f4f1ea" />
+    <meta
+      name="description"
+      content="Wenkang Jiang is a PhD student at the Australian Institute for Machine Learning, researching causal representation learning, AI for genomics, and AI safety."
+    />
+    <meta name="author" content="Wenkang Jiang" />
+    <meta
+      name="keywords"
+      content="Wenkang Jiang, causal representation learning, AI for genomics, single-cell perturbation, AI safety, AIML"
+    />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Wenkang Jiang — Causal AI Researcher" />
+    <meta
+      property="og:description"
+      content="Research in causal representation learning, AI for genomics, and reliable AI systems."
+    />
+    <meta
+      property="og:url"
+      content="https://week3ndzz.github.io/wenkang.github.io/"
+    />
+    <meta property="og:site_name" content="Wenkang Jiang" />
+    <meta name="twitter:card" content="summary" />
+
+    <link
+      rel="canonical"
+      href="https://week3ndzz.github.io/wenkang.github.io/"
+    />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="assets/css/site.css" />
+    <title>Wenkang Jiang — Causal AI Researcher</title>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Wenkang Jiang",
+        "url": "https://week3ndzz.github.io/wenkang.github.io/",
+        "email": "mailto:wenkang.jiang@adelaide.edu.au",
+        "jobTitle": "PhD Student",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "Australian Institute for Machine Learning, Adelaide University",
+          "url": "https://adelaide.edu.au/research/australian-institute-for-machine-learning/"
+        },
+        "sameAs": [
+          "https://github.com/week3ndzZ",
+          "https://orcid.org/0009-0005-1698-2138",
+          "https://www.linkedin.com/in/wenkang-jiang-0b8227208/",
+          "https://dblp.org/pid/361/1499"
+        ],
+        "knowsAbout": [
+          "Causal Representation Learning",
+          "AI for Genomics",
+          "Single-cell Perturbation Modeling",
+          "AI Safety"
+        ]
+      }
+    </script>
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <div class="site-shell" id="top">
+      <header class="site-header">
+        <a class="brand" href="#top" aria-label="WJ Wenkang Jiang, home">
+          <span class="brand-mark" aria-hidden="true">WJ</span>
+          <span class="brand-name">Wenkang Jiang</span>
+        </a>
+
+        <nav class="primary-nav" aria-label="Primary navigation">
+          <a href="#about">About</a>
+          <a href="#research">Research</a>
+          <a href="#publications">Publications</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <main id="main-content">
+        <section class="hero" aria-labelledby="hero-title">
+          <div class="hero-copy">
+            <p class="eyebrow"><span></span>Causality · AI for Science</p>
+            <h1 id="hero-title">Wenkang<br />Jiang</h1>
+            <p class="hero-role">PhD Student in Computer Science</p>
+            <p class="hero-affiliation">
+              <a
+                href="https://adelaide.edu.au/research/australian-institute-for-machine-learning/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Australian Institute for Machine Learning</a
+              ><br />
+              <a
+                href="https://adelaide.edu.au/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Adelaide University</a
+              >
+              · Adelaide, Australia
+            </p>
+            <p class="hero-intro">
+              I study how causal structure can make learning systems more
+              reliable, interpretable, and useful for scientific discovery.
+            </p>
+
+            <nav class="profile-links" aria-label="External profiles">
+              <a href="mailto:wenkang.jiang@adelaide.edu.au">
+                Email <span aria-hidden="true">↗</span>
+              </a>
+              <a
+                href="https://github.com/week3ndzZ"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub <span aria-hidden="true">↗</span>
+              </a>
+              <a
+                href="https://orcid.org/0009-0005-1698-2138"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                ORCID <span aria-hidden="true">↗</span>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/wenkang-jiang-0b8227208/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                LinkedIn <span aria-hidden="true">↗</span>
+              </a>
+              <a
+                href="https://dblp.org/pid/361/1499"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                DBLP <span aria-hidden="true">↗</span>
+              </a>
+            </nav>
+          </div>
+
+          <div class="hero-visual">
+            <div class="visual-header">
+              <span>Research map</span>
+              <span>WJ / 01</span>
+            </div>
+            <svg
+              viewBox="0 0 520 420"
+              role="img"
+              aria-labelledby="diagram-title diagram-desc"
+            >
+              <title id="diagram-title">A stylised causal research map</title>
+              <desc id="diagram-desc">
+                Interventions flow through latent causal variables to observed
+                cellular responses.
+              </desc>
+              <defs>
+                <pattern
+                  id="dot-grid"
+                  width="24"
+                  height="24"
+                  patternUnits="userSpaceOnUse"
+                >
+                  <circle
+                    cx="2"
+                    cy="2"
+                    r="1.3"
+                    fill="currentColor"
+                    opacity="0.15"
+                  ></circle>
+                </pattern>
+                <linearGradient id="node-gradient" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0" stop-color="#367785"></stop>
+                  <stop offset="1" stop-color="#194b55"></stop>
+                </linearGradient>
+                <marker
+                  id="arrow"
+                  viewBox="0 0 10 10"
+                  refX="8"
+                  refY="5"
+                  markerWidth="7"
+                  markerHeight="7"
+                  orient="auto-start-reverse"
+                >
+                  <path d="M 0 0 L 10 5 L 0 10 z" fill="#8da6aa"></path>
+                </marker>
+              </defs>
+
+              <rect
+                class="diagram-grid"
+                x="0"
+                y="0"
+                width="520"
+                height="420"
+                rx="18"
+                fill="url(#dot-grid)"
+              ></rect>
+
+              <g
+                class="diagram-paths"
+                fill="none"
+                stroke="#8da6aa"
+                stroke-width="2.5"
+                marker-end="url(#arrow)"
+              >
+                <path d="M116 211 C167 211 174 120 232 120"></path>
+                <path d="M116 211 C167 211 174 300 232 300"></path>
+                <path d="M286 120 C344 120 342 190 397 202"></path>
+                <path d="M286 300 C344 300 342 230 397 218"></path>
+                <path
+                  class="signal-path"
+                  d="M258 154 L258 266"
+                  stroke="#cf6e42"
+                ></path>
+              </g>
+
+              <g class="diagram-node intervention-node">
+                <circle
+                  cx="88"
+                  cy="211"
+                  r="42"
+                  fill="#fffdfa"
+                  stroke="#cf6e42"
+                  stroke-width="3"
+                ></circle>
+                <text x="88" y="207" text-anchor="middle" class="node-symbol">
+                  do
+                </text>
+                <text
+                  x="88"
+                  y="226"
+                  text-anchor="middle"
+                  class="node-subscript"
+                >
+                  (u)
+                </text>
+              </g>
+
+              <g class="diagram-node latent-node">
+                <circle
+                  cx="258"
+                  cy="120"
+                  r="34"
+                  fill="url(#node-gradient)"
+                ></circle>
+                <text
+                  x="258"
+                  y="128"
+                  text-anchor="middle"
+                  class="node-symbol node-symbol-light"
+                >
+                  z₁
+                </text>
+              </g>
+
+              <g class="diagram-node latent-node node-delay-1">
+                <circle
+                  cx="258"
+                  cy="300"
+                  r="34"
+                  fill="url(#node-gradient)"
+                ></circle>
+                <text
+                  x="258"
+                  y="308"
+                  text-anchor="middle"
+                  class="node-symbol node-symbol-light"
+                >
+                  z₂
+                </text>
+              </g>
+
+              <g class="diagram-node observation-node">
+                <circle
+                  cx="432"
+                  cy="211"
+                  r="47"
+                  fill="#e5eff0"
+                  stroke="#255f6b"
+                  stroke-width="2.5"
+                ></circle>
+                <text x="432" y="219" text-anchor="middle" class="node-symbol">
+                  x
+                </text>
+              </g>
+
+              <g class="diagram-labels">
+                <text x="88" y="278" text-anchor="middle">PERTURB</text>
+                <text x="258" y="65" text-anchor="middle">LATENT CAUSES</text>
+                <text x="432" y="278" text-anchor="middle">RESPONSE</text>
+              </g>
+            </svg>
+            <p class="visual-caption">
+              <span class="caption-index">01</span>
+              From interventions to mechanisms—not just correlations.
+            </p>
+          </div>
+        </section>
+
+        <section
+          class="section about-section"
+          id="about"
+          aria-labelledby="about-title"
+        >
+          <div class="section-heading">
+            <p class="section-index">01 / About</p>
+            <h2 id="about-title">
+              Building AI that reasons<br />about cause and effect.
+            </h2>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-copy">
+              <p class="lead">
+                I am a PhD student at the
+                <a
+                  href="https://adelaide.edu.au/research/australian-institute-for-machine-learning/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Australian Institute for Machine Learning (AIML)</a
+                >, Adelaide University, and a member of the
+                <a
+                  href="https://cs.adelaide.edu.au/~javen/supervise.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Causal AI Group</a
+                >. I am supervised by
+                <a
+                  href="https://researchers.adelaide.edu.au/profile/javen.shi"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Prof. Javen Qinfeng Shi</a
+                >, with
+                <a
+                  href="https://researchers.adelaide.edu.au/profile/yuhang.liu01"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Dr. Yuhang Liu</a
+                >
+                as co-supervisor.
+              </p>
+              <p>
+                My work sits at the intersection of causal representation
+                learning and AI for science. I am especially interested in
+                learning intervention-aware representations from complex
+                biological data, with the goal of predicting how systems respond
+                beyond the conditions observed during training. I also explore
+                the internal representations that shape the reliability and
+                safety of modern AI models.
+              </p>
+            </div>
+
+            <aside class="now-card" aria-label="Current position">
+              <p class="card-kicker">Currently</p>
+              <h3>PhD Student</h3>
+              <p>
+                Australian Institute for Machine Learning<br />Adelaide
+                University
+              </p>
+              <dl>
+                <div>
+                  <dt>Group</dt>
+                  <dd>Causal AI</dd>
+                </div>
+                <div>
+                  <dt>Focus</dt>
+                  <dd>AI for Genomics</dd>
+                </div>
+                <div>
+                  <dt>Location</dt>
+                  <dd>Adelaide, AU</dd>
+                </div>
+              </dl>
+            </aside>
+          </div>
+
+          <div class="education-block">
+            <div class="education-heading">
+              <p class="mini-label">Academic path</p>
+              <p>Education</p>
+            </div>
+            <ol class="education-list" role="list">
+              <li>
+                <time datetime="2024">2024—Present</time>
+                <h3>PhD Student in Computer Science</h3>
+                <p>
+                  Australian Institute for Machine Learning<br />University of
+                  Adelaide / Adelaide University
+                </p>
+              </li>
+              <li>
+                <time datetime="2021">2021—2024</time>
+                <h3>M.S. in Computer Technology</h3>
+                <p>
+                  Computer Network Information Center, CAS<br />University of
+                  Chinese Academy of Sciences
+                </p>
+              </li>
+              <li>
+                <time datetime="2017">2017—2021</time>
+                <h3>B.S. in Computer Science and Technology</h3>
+                <p>Hefei University of Technology</p>
+              </li>
+            </ol>
+          </div>
+        </section>
+
+        <section
+          class="section research-section"
+          id="research"
+          aria-labelledby="research-title"
+        >
+          <div class="section-heading section-heading-inline">
+            <div>
+              <p class="section-index">02 / Research</p>
+              <h2 id="research-title">Research directions</h2>
+            </div>
+            <p class="section-note">
+              Mechanisms, interventions, and robust generalisation.
+            </p>
+          </div>
+
+          <div class="interest-grid">
+            <article class="interest-card">
+              <p class="interest-number">01</p>
+              <div class="interest-icon" aria-hidden="true">
+                <svg viewBox="0 0 48 48">
+                  <circle cx="10" cy="24" r="4"></circle>
+                  <circle cx="25" cy="11" r="4"></circle>
+                  <circle cx="25" cy="37" r="4"></circle>
+                  <circle cx="40" cy="24" r="4"></circle>
+                  <path d="M14 22 21 14M14 26l7 8M29 13l8 8M29 35l8-8"></path>
+                </svg>
+              </div>
+              <h3>Causal Representation Learning</h3>
+              <p>
+                Recovering stable, intervention-aware latent structure from
+                complex and partially observed data.
+              </p>
+            </article>
+
+            <article class="interest-card">
+              <p class="interest-number">02</p>
+              <div class="interest-icon" aria-hidden="true">
+                <svg viewBox="0 0 48 48">
+                  <path d="M13 7c15 8 7 26 22 34M35 7c-15 8-7 26-22 34"></path>
+                  <path d="M15 13h18M12 24h24M15 35h18"></path>
+                </svg>
+              </div>
+              <h3>AI for Genomics</h3>
+              <p>
+                Learning cellular programs and predicting responses to unseen
+                genetic perturbations.
+              </p>
+            </article>
+
+            <article class="interest-card">
+              <p class="interest-number">03</p>
+              <div class="interest-icon" aria-hidden="true">
+                <svg viewBox="0 0 48 48">
+                  <path
+                    d="M24 5 39 11v11c0 10-6 17-15 21C15 39 9 32 9 22V11z"
+                  ></path>
+                  <path d="m17 24 5 5 10-11"></path>
+                </svg>
+              </div>
+              <h3>AI Safety</h3>
+              <p>
+                Understanding and steering the internal representations that
+                govern reliable model behaviour.
+              </p>
+            </article>
+          </div>
+
+          <div class="selected-work">
+            <div class="selected-work-heading">
+              <p class="mini-label">Selected systems</p>
+              <p>Public research code</p>
+            </div>
+
+            <article class="project-card">
+              <div class="project-mark project-mark-cite" aria-hidden="true">
+                <span></span><span></span><span></span><span></span>
+              </div>
+              <div class="project-content">
+                <div class="project-meta">
+                  <span>KDD 2026</span>
+                  <span>Single-cell dynamics</span>
+                </div>
+                <h3>CITE-VAE</h3>
+                <p>
+                  A causality-inspired temporal VAE that learns latent cellular
+                  programs, perturbation-conditioned mechanisms, and their
+                  evolution over time.
+                </p>
+                <div class="text-links">
+                  <a
+                    href="https://doi.org/10.1145/3770855.3818868"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Paper <span aria-hidden="true">↗</span></a
+                  >
+                  <a
+                    href="https://arxiv.org/abs/2605.25581"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >arXiv <span aria-hidden="true">↗</span></a
+                  >
+                  <a
+                    href="https://github.com/week3ndzZ/CITEVAE"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Code <span aria-hidden="true">↗</span></a
+                  >
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div
+                class="project-mark project-mark-perturbed"
+                aria-hidden="true"
+              >
+                <span></span><span></span><span></span>
+              </div>
+              <div class="project-content">
+                <div class="project-meta">
+                  <span>ICML 2026</span>
+                  <span>Perturbation prediction</span>
+                </div>
+                <h3>PerturbedVAE</h3>
+                <p>
+                  A perturbation-aware framework that separates sparse
+                  intervention signals from dominant cellular background
+                  structure for robust OOD prediction.
+                </p>
+                <div class="text-links">
+                  <a
+                    href="https://arxiv.org/abs/2605.19343"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Paper <span aria-hidden="true">↗</span></a
+                  >
+                  <a
+                    href="https://github.com/week3ndzZ/PerturbedVAE"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Code <span aria-hidden="true">↗</span></a
+                  >
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section
+          class="section publications-section"
+          id="publications"
+          aria-labelledby="publications-title"
+        >
+          <div class="section-heading section-heading-inline">
+            <div>
+              <p class="section-index">03 / Publications</p>
+              <h2 id="publications-title">Selected publications</h2>
+            </div>
+            <a
+              class="orcid-link"
+              href="https://orcid.org/0009-0005-1698-2138"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Full record on ORCID <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+
+          <ol class="publication-list" role="list">
+            <li class="publication-item featured-publication">
+              <div class="publication-year">2026</div>
+              <article>
+                <div class="publication-topline">
+                  <span class="venue-badge">KDD</span>
+                  <span>Conference paper</span>
+                </div>
+                <h3>
+                  <a
+                    href="https://doi.org/10.1145/3770855.3818868"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Learning Latent Dynamical Causal Processes for Single-Cell
+                    Perturbation Prediction
+                  </a>
+                </h3>
+                <p class="authors">
+                  <strong>Wenkang Jiang</strong>, Yuhang Liu, Erdun Gao, Ehsan
+                  Abbasnejad, Lina Yao, Javen Qinfeng Shi
+                </p>
+                <p class="venue">
+                  Proceedings of the 32nd ACM SIGKDD Conference on Knowledge
+                  Discovery and Data Mining, Vol. 2, AI4Science Track,
+                  11177–11188
+                </p>
+                <div class="paper-links">
+                  <a
+                    href="https://doi.org/10.1145/3770855.3818868"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >DOI</a
+                  >
+                  <a
+                    href="https://arxiv.org/abs/2605.25581"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >arXiv</a
+                  >
+                  <a
+                    href="https://github.com/week3ndzZ/CITEVAE"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Code</a
+                  >
+                </div>
+              </article>
+            </li>
+
+            <li class="publication-item">
+              <div class="publication-year">2026</div>
+              <article>
+                <div class="publication-topline">
+                  <span class="venue-badge venue-badge-muted">CCS Chem.</span>
+                  <span>Journal article</span>
+                </div>
+                <h3>
+                  <a
+                    href="https://doi.org/10.31635/ccschem.026.202506796"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Uni-Full: An Artificial Intelligence Model for Accurate
+                    Prediction of Protein Targets of Amphiphilic Fullerene
+                    Derivatives
+                  </a>
+                </h3>
+                <p class="authors">
+                  Libin Yang, Zehu Wang, Zhanfeng Wang,
+                  <strong>Wenkang Jiang</strong>, Yicheng Lu, Bowen Li, Ziyi
+                  Zhang, Jiao Li, Feng Yu, Qingqing Guo, Jie Li, Chunru Wang,
+                  Chunli Bai
+                </p>
+                <p class="venue">CCS Chemistry, 8(8), 4055–4073</p>
+                <div class="paper-links">
+                  <a
+                    href="https://doi.org/10.31635/ccschem.026.202506796"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >DOI</a
+                  >
+                </div>
+              </article>
+            </li>
+
+            <li class="publication-item featured-publication">
+              <div class="publication-year">2026</div>
+              <article>
+                <div class="publication-topline">
+                  <span class="venue-badge">ICML</span>
+                  <span>Conference paper</span>
+                </div>
+                <h3>
+                  <a
+                    href="https://arxiv.org/abs/2605.19343"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    What Makes a Representation Good for Single-Cell
+                    Perturbation Prediction?
+                  </a>
+                </h3>
+                <p class="authors">
+                  <strong>Wenkang Jiang</strong>, Yuhang Liu, Yichao Cai, Erdun
+                  Gao, Jiayi Dong, Ehsan Abbasnejad, Lina Yao, Javen Qinfeng Shi
+                </p>
+                <p class="venue">
+                  Accepted at the 43rd International Conference on Machine
+                  Learning (ICML 2026)
+                </p>
+                <div class="paper-links">
+                  <a
+                    href="https://arxiv.org/abs/2605.19343"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >arXiv</a
+                  >
+                  <a
+                    href="https://github.com/week3ndzZ/PerturbedVAE"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Code</a
+                  >
+                </div>
+              </article>
+            </li>
+
+            <li class="publication-item">
+              <div class="publication-year">2025</div>
+              <article>
+                <div class="publication-topline">
+                  <span class="venue-badge venue-badge-muted">IEEE TCSS</span>
+                  <span>Journal article</span>
+                </div>
+                <h3>
+                  <a
+                    href="https://doi.org/10.1109/TCSS.2024.3501740"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    CRAFT: Identifying Key Nodes in the Science Communication
+                    Community via Counterfactual Fairness
+                  </a>
+                </h3>
+                <p class="authors">
+                  <strong>Wenkang Jiang</strong>, Qirui Tang, Lei Lin, Ye Han,
+                  Runqiang Wang, Hongbo He
+                </p>
+                <p class="venue">
+                  IEEE Transactions on Computational Social Systems, 12(4),
+                  1473–1484
+                </p>
+                <div class="paper-links">
+                  <a
+                    href="https://doi.org/10.1109/TCSS.2024.3501740"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >DOI</a
+                  >
+                </div>
+              </article>
+            </li>
+
+            <li class="publication-item">
+              <div class="publication-year">2025</div>
+              <article>
+                <div class="publication-topline">
+                  <span class="venue-badge venue-badge-muted">CJIF</span>
+                  <span>Journal article</span>
+                </div>
+                <h3>
+                  <a
+                    href="https://doi.org/10.62762/CJIF.2025.820998"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Using Psycholinguistic Clues to Index Deep Semantic
+                    Evidences: Personality Detection in Social Media Texts
+                  </a>
+                </h3>
+                <p class="authors">
+                  Qirui Tang, <strong>Wenkang Jiang</strong>, Xinlong Pan, Lei
+                  Lin, Jizhao Zhu, Yihua Du, Donghong Sun
+                </p>
+                <p class="venue">
+                  Chinese Journal of Information Fusion, 2(2), 112–126
+                </p>
+                <div class="paper-links">
+                  <a
+                    href="https://doi.org/10.62762/CJIF.2025.820998"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >DOI</a
+                  >
+                </div>
+              </article>
+            </li>
+
+            <li class="publication-item">
+              <div class="publication-year">2024</div>
+              <article>
+                <div class="publication-topline">
+                  <span class="venue-badge venue-badge-muted">ISWA</span>
+                  <span>Journal article</span>
+                </div>
+                <h3>
+                  <a
+                    href="https://doi.org/10.1016/j.iswa.2024.200448"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Maximizing the Spread of Information Through Content
+                    Optimization
+                  </a>
+                </h3>
+                <p class="authors">
+                  Lei Lin, Yihua Du, Shibo Zhao, <strong>Wenkang Jiang</strong>,
+                  Qirui Tang, Li Xu
+                </p>
+                <p class="venue">
+                  Intelligent Systems with Applications, 24, 200448
+                </p>
+                <div class="paper-links">
+                  <a
+                    href="https://doi.org/10.1016/j.iswa.2024.200448"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >DOI</a
+                  >
+                </div>
+              </article>
+            </li>
+
+            <li class="publication-item">
+              <div class="publication-year">2023</div>
+              <article>
+                <div class="publication-topline">
+                  <span class="venue-badge venue-badge-muted">JSC</span>
+                  <span>Journal article</span>
+                </div>
+                <h3>
+                  <a
+                    href="https://doi.org/10.23919/JSC.2023.0010"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Counterfactual Reasoning Over Community Detection: A Case
+                    Study of the Public Science Day Community
+                  </a>
+                </h3>
+                <p class="authors">
+                  <strong>Wenkang Jiang</strong>, Hongbo He, Lei Lin, Qirui
+                  Tang, Runqiang Wang
+                </p>
+                <p class="venue">Journal of Social Computing, 4(2), 125–138</p>
+                <div class="paper-links">
+                  <a
+                    href="https://doi.org/10.23919/JSC.2023.0010"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >DOI</a
+                  >
+                </div>
+              </article>
+            </li>
+          </ol>
+        </section>
+
+        <section
+          class="contact-section"
+          id="contact"
+          aria-labelledby="contact-title"
+        >
+          <div>
+            <p class="section-index">04 / Contact</p>
+            <h2 id="contact-title">
+              Let’s discuss causes,<br />not just correlations.
+            </h2>
+          </div>
+          <div class="contact-copy">
+            <p>
+              I am always glad to connect around causal learning, computational
+              genomics, and reliable AI systems.
+            </p>
+            <div class="contact-links">
+              <a href="mailto:wenkang.jiang@adelaide.edu.au">
+                Send an email <span aria-hidden="true">↗</span>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/wenkang-jiang-0b8227208/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Connect on LinkedIn <span aria-hidden="true">↗</span>
+              </a>
+              <a
+                href="https://github.com/week3ndzZ"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Follow on GitHub <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <p>© 2026 Wenkang Jiang</p>
+        <p>Last updated August 2026</p>
+        <a href="#top">Back to top <span aria-hidden="true">↑</span></a>
+      </footer>
+    </div>
+  </body>
+</html>
