@@ -32,9 +32,7 @@ The project-site URL will be:
 - Academic service: `Service.html`
 - Base typography and page styling: `jemdoc.css`
 - Responsive layout and page components: `site.css`
-- Profile artwork: `pic/wenkang-profile.svg`
+- Profile photograph: `pic/wenkang-profile.jpg`
 - Browser icon: `favicon.png`
 
-The current profile artwork is an original WJ monogram. Replace it with a
-personal photograph and update the image path in `index.html` when a suitable
-portrait is available. No third-party portrait or image asset is included.
+The profile photograph is displayed on the homepage from `index.html`.
