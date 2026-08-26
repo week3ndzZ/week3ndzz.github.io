@@ -1,6 +1,8 @@
 # Wenkang Jiang — Academic Homepage
 
-A lightweight, responsive academic homepage built with plain HTML and CSS for GitHub Pages.
+A lightweight, responsive, multi-page academic homepage built with plain HTML
+and CSS for GitHub Pages. The layout follows the classic Jemdoc academic style
+and the page structure of [Erdun Gao's homepage](https://erdungao.github.io/).
 
 ## Preview locally
 
@@ -24,8 +26,15 @@ The project-site URL will be:
 
 ## Update profile details
 
-- Main content and publication entries: `index.html`
-- Colours, spacing, and responsive layout: `assets/css/site.css`
+- Homepage and biography: `index.html`
+- Publication entries: `Publications.html`
+- Academic background: `Experience.html`
+- Research topics and projects: `Research.html`
+- Base typography and page styling: `jemdoc.css`
+- Responsive layout and page components: `site.css`
+- Profile artwork: `pic/wenkang-profile.svg`
 - Browser icon: `favicon.svg`
 
-The design uses an inline SVG causal diagram, so there are no third-party image dependencies.
+The current profile artwork is an original WJ monogram. Replace it with a
+personal photograph and update the image path in `index.html` when a suitable
+portrait is available. No third-party portrait or image asset is included.
