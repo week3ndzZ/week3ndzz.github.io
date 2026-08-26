@@ -29,7 +29,7 @@ The project-site URL will be:
 - Homepage and biography: `index.html`
 - Publication entries: `Publications.html`
 - Academic background: `Experience.html`
-- Research topics and projects: `Research.html`
+- Academic service: `Service.html`
 - Base typography and page styling: `jemdoc.css`
 - Responsive layout and page components: `site.css`
 - Profile artwork: `pic/wenkang-profile.svg`
