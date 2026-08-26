@@ -33,7 +33,6 @@ The project-site URL will be:
 - Base typography and page styling: `jemdoc.css`
 - Responsive layout and page components: `site.css`
 - Profile artwork: `pic/wenkang-profile.svg`
-- Browser icon: `favicon.svg`
 
 The current profile artwork is an original WJ monogram. Replace it with a
 personal photograph and update the image path in `index.html` when a suitable
