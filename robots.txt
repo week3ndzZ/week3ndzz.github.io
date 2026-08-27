@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://week3ndzz.github.io/wenkang.github.io/sitemap.xml
+Sitemap: https://week3ndzz.github.io/sitemap.xml

@@ -18,11 +18,9 @@ Then open <http://localhost:8000>.
 2. Under **Build and deployment**, choose **Deploy from a branch**.
 3. Select `main` and `/ (root)`, then save.
 
-The project-site URL will be:
+The user-site URL is:
 
-<https://week3ndzz.github.io/wenkang.github.io/>
-
-> The address `wenkang.github.io` is only available to the GitHub account or organisation named `wenkang`. With the current account, a root user site would require a repository named `week3ndzZ.github.io`; a separately owned custom domain is another option.
+<https://week3ndzz.github.io/>
 
 ## Update profile details
 
